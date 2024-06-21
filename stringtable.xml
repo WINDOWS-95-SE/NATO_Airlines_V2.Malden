@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="AFP">
+    <!--===================================== mission info =====================================-->
+    <Package name="Scripts">
+        <Key ID="STR_AFP_Scripts_DisplayName">
+            <English>COOP 25 NATO Airlines</English>
+            <Polish>COOP 25 NATO Airlines</Polish>
+        </Key>
+        <Key ID="STR_AFP_Scripts_Mission_Author">
+            <English>WINDOWS_95_SE, Lesovik</English>
+            <Polish>WINDOWS_95_SE, Leskowik</Polish>
+        </Key>
+        <Key ID="STR_AFP_Scripts_Mission_Title">
+            <English>NATO Airlines</English>
+            <Polish>NATO Airlines</Polish>
+        </Key>
+        <Key ID="STR_AFP_Scripts_Mission_Description">
+            <English>NATO Paratroopers move in to secure a high value target.</English>
+            <Polish>Spadochroniarze NATO wkraczają aby zabezpieczyć cel o wysokiej wartości.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Scripts_Mission_ShortDescription">
+            <English>NATO Paratroopers move in to secure a high value target.</English>
+            <Polish>Spadochroniarze NATO wkraczają aby zabezpieczyć cel o wysokiej wartości.</Polish>
+        </Key>
+    </Package>
+    <!--===================================== briefing content =====================================-->
+    <Package name="Diary">
+        <Key ID="STR_AFP_Diary_Situation_Title">
+            <English>Situation</English>
+            <Polish>Sytuacja</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Situation_Contents">
+            <English>Malden, September 2033&lt;br/&gt;&lt;br/&gt;The island is currently under control of Scimitar Regiment as one of CSATs strategic transit points.&lt;br/&gt;&lt;br/&gt;According to our sources, Scimitar have recently captured an important engineer of the chinese military industrial complex. China wants the guy back, but their government is trying to avoid an intra-CSAT incident. Looks like we want him more.&lt;br/&gt;&lt;br/&gt;Paratroopers from Fox 1 Platoon are being deployed to Malden using an &lt;marker name='marker_start'&gt;abandoned airfield&lt;/marker&gt; as a staging area. The mission is to retrieve and evacuate the chinese engineer.&lt;br/&gt;&lt;br/&gt;Malden has had a tumultuous past. The north is heavily mined, especially around &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; and &lt;marker name='marker_oldBase'&gt;old&lt;/marker&gt; &lt;marker name='marker_radio'&gt;bases&lt;/marker&gt;. IDAP has a demining operation plan spanning a few months. We have a few hours at most. For you, this means keeping to the roads and urbanized areas.&lt;br/&gt;&lt;br/&gt;We have reliable intel about approximate positions of key targets in the &lt;marker name='marker_airport'&gt;CSAT airbase&lt;/marker&gt;. Use it to your advantage.&lt;br/&gt;Scimitar Regiment are not as well equipped as CSAT units you may have encountered on Altis, but they're still not to be underestimated.&lt;br/&gt;Reinforcements may be expected mainly from the &lt;marker name='marker_reinfBase'&gt;south-eastern base&lt;/marker&gt;.</English>
+            <Polish>Malden, wrzesień 2033&lt;br/&gt;&lt;br/&gt;Wyspa znajduje się obecnie pod kontrolą pułku Scimitar jako jeden ze strategicznych punktów tranzytowych CSAT.&lt;br/&gt;&lt;br/&gt;Według naszych źródeł, Scimitar porwał niedawno ważnego dla chińskiej zbrojeniówki inżyniera. Chiny chcą go z powrotem, ale rząd stara się uniknąć tarć wewnątrz CSAT. Wygląda na to, że chcemy go bardziej.&lt;br/&gt;&lt;br/&gt;Spadochroniarze z plutonu Fox 1 zostają wysłani na Malden, wykorzystując &lt;marker name='marker_start'&gt;opuszczone lotnisko&lt;/marker&gt; jako bazę wypadową. Misją jest odzyskanie i ewakuacja chińskiego inżyniera.&lt;br/&gt;&lt;br/&gt;Malden ma za sobą burzliwą przeszłość. Północ jest gęsto zaminowana, szczególnie w okolicach &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; i &lt;marker name='marker_oldBase'&gt;starych baz&lt;/marker&gt;. IDAP ma plan operacji rozminowania na kilka miesięcy. My mamy najwyżej kilka godzin. Dla was oznacza to trzymanie się dróg i obszarów zurbanizowanych.&lt;br/&gt;&lt;br/&gt;Mamy wiarygodne informacje o przybliżonych pozycjach kluczowych celów w &lt;marker name='marker_airport'&gt;bazie lotniczej CSAT&lt;/marker&gt;. Wykorzystajcie to na swoją korzyść.&lt;br/&gt;Pułk Scimitar nie jest tak dobrze wyposażony jak jednostki CSAT, które mogliście spotkać na Altis, ale nadal nie można ich lekceważyć.&lt;br/&gt;Posiłków można spodziewać się głównie z &lt;marker name='marker_reinfBase'&gt;południowo-wschodniej bazy&lt;/marker&gt;.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Mission_Title">
+            <English>Mission</English>
+            <Polish>Misja</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Mission_Contents">
+            <English>Your mission is to locate and evacuate the HVT.&lt;br/&gt;&lt;br/&gt;First, your platoon will soften up the &lt;marker name='marker_airport'&gt;landing area&lt;/marker&gt; with artillery, focusing on AAA positions. Then, you will &lt;marker name='marker_paradrop'&gt;approach from the north&lt;/marker&gt; in a &lt;marker name='marker_plane'&gt;V-44 Blackfish&lt;/marker&gt; and paradrop above &lt;marker name='marker_airport'&gt;the airfield&lt;/marker&gt;. The V-44 will return and airdrop your LSVs after you secure the area.&lt;br/&gt;&lt;br/&gt;Fox 1-0 and Fox 1-1 UAV Operators will use Darters stored inside LSVs to locate the HVT; intel gives three possible areas: &lt;marker name='marker_area_search1'&gt;Saint Louis&lt;/marker&gt;, &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; and &lt;marker name='marker_area_search3'&gt;La Trinite&lt;/marker&gt;. The rest of you will keep eyes out for any &lt;marker name='marker_reinf'&gt;possible QRF&lt;/marker&gt;.&lt;br/&gt;After locating the HVT, you will proceed to capture. Then, escort the HVT to the &lt;marker name='marker_evac'&gt;evacuation zone&lt;/marker&gt; where the V-44 will pick you up.&lt;br/&gt;&lt;br/&gt;Mk45 Hammer is available to Fox 1-0. Use it before the paradrop, otherwise you may be out of range.&lt;br/&gt;&lt;br/&gt;You have 4 Prowler Light Strike Vehicles available, one of which is armed with a Spike ATGM launcher.&lt;br/&gt;&lt;br/&gt;Any backpacks you have need to be stored inside the LSVs before boarding the V-44 for paradrop.&lt;br/&gt;&lt;br/&gt;Keep close to the roads - the north is heavily mined, especially around &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; and &lt;marker name='marker_oldBase'&gt;old&lt;/marker&gt; &lt;marker name='marker_radio'&gt;bases&lt;/marker&gt;.</English>
+            <Polish>Waszym zadaniem jest zlokalizowanie i ewakuacja HVT.&lt;br/&gt;&lt;br/&gt;Najpierw wasz pluton przygotuje &lt;marker name='marker_airport'&gt;obszar lądowania&lt;/marker&gt; za pomocą artylerii, koncentrując się na pozycjach p-lot. Następnie &lt;marker name='marker_paradrop'&gt;nadlecicie od północy&lt;/marker&gt; w &lt;marker name='marker_plane'&gt;V-44 Blackfish&lt;/marker&gt; i wykonacie skok spadochronowy nad &lt;marker name='marker_airport'&gt;lotniskiem&lt;/marker&gt;. V-44 powróci i zrzuci LSV po zabezpieczeniu terenu.&lt;br/&gt;Operatorzy UAV z Fox 1-0 i Fox 1-1 użyją Darterów zostawionych w pojazdach LSV do zlokalizowania HVT; intel wskazuje trzy możliwe obszary: &lt;marker name='marker_area_search1'&gt;Saint Louis&lt;/marker&gt;, &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; i &lt;marker name='marker_area_search3'&gt;La Trinite&lt;/marker&gt;Reszta plutonu będzie wypatrywać &lt;marker name='marker_reinf'&gt;możliwych QRF&lt;/marker&gt;.&lt;br/&gt;Po zlokalizowaniu HVT przystąpicie do przejęcia.Następnie odeskortujcie HVT do &lt;marker name='marker_evac'&gt;strefy ewakuacji&lt;/marker&gt;, skąd podejmie was V-44.&lt;br/&gt;&lt;br/&gt;Mk45 Hammer dostępny dla Fox 1-0. Użyjcie go przed skokiem, w przeciwnym razie może być poza zasięgiem.&lt;br/&gt;&lt;br/&gt;Do dyspozycji 4 Prowler Light Strike Vehicle, z czego jeden uzbrojony w wyrzutnię ATGM Spike.&lt;br/&gt;&lt;br/&gt;Należy schować wszystkie plecaki w pojazdach LSV przed wejściem na pokład V-44 do skoku.&lt;br/&gt;&lt;br/&gt;Trzymajcie się blisko dróg - północ jest gęsto zaminowana, szczególnie w okolicach &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; i &lt;marker name='marker_oldBase'&gt;starych&lt;/marker&gt; &lt;marker name='marker_radio'&gt;baz&lt;/marker&gt;.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Execution_Title">
+            <English>Execution</English>
+            <Polish>Wykonanie</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Execution_Contents">
+            <English>1. Connect to Mk45 Hammer and strike &lt;marker name='marker_airport'&gt;the airfield&lt;/marker&gt;. AAA is the top priority.&lt;br/&gt;2. Board the &lt;marker name='marker_plane'&gt;V-44 Blackfish&lt;/marker&gt; and paradrop when given a green light.&lt;br/&gt;3. Secure &lt;marker name='marker_airport'&gt;the airbase&lt;/marker&gt; and await vehicle airdrop.&lt;br/&gt;4. Locate the HVT using UAVs. Keep a look out for any QRF.&lt;br/&gt;5. Find and secure the HVT.&lt;br/&gt;6. Escort the HVT to the &lt;marker name='marker_evac'&gt;evacuation LZ&lt;/marker&gt;.&lt;br/&gt;</English>
+            <Polish>1. Podłączcie się do Mk45 Hammer i ostrzelajcie &lt;marker name='marker_airport'&gt;lotnisko&lt;/marker&gt;. P-lot są priorytetem.&lt;br/&gt;2. Wejdźcie na pokład &lt;marker name='marker_plane'&gt;V-44&lt;/marker&gt; i zdesantujcie się, gdy otrzymacie zielone światło.&lt;br/&gt;3. Zabezpieczcie &lt;marker name='marker_airport'&gt;lotnisko&lt;/marker&gt; i czekajcie na zrzut pojazdów.&lt;br/&gt;4. Zlokalizujcie HVT za pomocą UAV. Wypatrujcie możliwych QRF.&lt;br/&gt;5. Znajdźcie i zabezpieczcie HVT.&lt;br/&gt;6. Odeskortujcie HVT do &lt;marker name='marker_evac'&gt;strefy ewakuacji&lt;/marker&gt;.&lt;br/&gt;</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Signal_Title">
+            <English>Signal</English>
+            <Polish>Sygnał</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Signal_Contents">
+            <English>Fox 1-0 - Platoon Command Element (B1CH4). &lt;br/&gt;Fox 1-1 - Paratrooper Squad with UAV Operator (B1CH1). &lt;br/&gt;Fox 1-2 - Paratrooper Squad (B1CH2). &lt;br/&gt;Fox 1-3 - Paratrooper Squad (B1CH3). &lt;br/&gt;&lt;br/&gt;CH1 LR for communication between element leaders.</English>
+            <Polish>Fox 1-0 - Element dowodzenia plutonem (B1K4). &lt;br/&gt;Fox 1-1 - Drużyna spadochroniarzy z operatorem UAV (B1K1). &lt;br/&gt;Fox 1-2 - Drużyna spadochroniarzy (B1K2). &lt;br/&gt;Fox 1-3 - Drużyna spadochroniarzy (B1K3). &lt;br/&gt;&lt;br/&gt;K1 LR do komunikacji między dowódcami.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Signal_ContentsFox10">
+            <English>Fox 1-0 - Platoon Command Element, your team (B1CH4). &lt;br/&gt;Fox 1-1 - Paratrooper Squad with UAV Operator (B1CH1). &lt;br/&gt;Fox 1-2 - Paratrooper Squad (B1CH2). &lt;br/&gt;Fox 1-3 - Paratrooper Squad (B1CH3). &lt;br/&gt;&lt;br/&gt;CH1 LR for communication between element leaders.</English>
+            <Polish>Fox 1-0 - Element dowodzenia plutonem, twoja sekcja (B1K4). &lt;br/&gt;Fox 1-1 - Drużyna spadochroniarzy z operatorem UAV (B1K1). &lt;br/&gt;Fox 1-2 - Drużyna spadochroniarzy (B1K2). &lt;br/&gt;Fox 1-3 - Drużyna spadochroniarzy (B1K3). &lt;br/&gt;&lt;br/&gt;K1 LR do komunikacji między dowódcami.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Signal_ContentsFox11">
+            <English>Fox 1-0 - Platoon Command Element (B1CH4). &lt;br/&gt;Fox 1-1 - Paratrooper Squad with UAV Operator, your squad (B1CH1). &lt;br/&gt;Fox 1-2 - Paratrooper Squad (B1CH2). &lt;br/&gt;Fox 1-3 - Paratrooper Squad (B1CH3). &lt;br/&gt;&lt;br/&gt;CH1 LR for communication between element leaders.</English>
+            <Polish>Fox 1-0 - Element dowodzenia plutonem (B1K4). &lt;br/&gt;Fox 1-1 - Drużyna spadochroniarzy z operatorem UAV, twoja drużyna (B1K1). &lt;br/&gt;Fox 1-2 - Drużyna spadochroniarzy (B1K2). &lt;br/&gt;Fox 1-3 - Drużyna spadochroniarzy (B1K3). &lt;br/&gt;&lt;br/&gt;K1 LR do komunikacji między dowódcami.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Signal_ContentsFox12">
+            <English>Fox 1-0 - Platoon Command Element (B1CH4). &lt;br/&gt;Fox 1-1 - Paratrooper Squad with UAV Operator (B1CH1). &lt;br/&gt;Fox 1-2 - Paratrooper Squad, your squad (B1CH2). &lt;br/&gt;Fox 1-3 - Paratrooper Squad (B1CH3). &lt;br/&gt;&lt;br/&gt;CH1 LR for communication between element leaders.</English>
+            <Polish>Fox 1-0 - Element dowodzenia plutonem (B1K4). &lt;br/&gt;Fox 1-1 - Drużyna spadochroniarzy z operatorem UAV (B1K1). &lt;br/&gt;Fox 1-2 - Drużyna spadochroniarzy, twoja drużyna (B1K2). &lt;br/&gt;Fox 1-3 - Drużyna spadochroniarzy (B1K3). &lt;br/&gt;&lt;br/&gt;K1 LR do komunikacji między dowódcami.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Diary_Signal_ContentsFox13">
+            <English>Fox 1-0 - Platoon Command Element (B1CH4). &lt;br/&gt;Fox 1-1 - Paratrooper Squad with UAV Operator (B1CH1). &lt;br/&gt;Fox 1-2 - Paratrooper Squad (B1CH2). &lt;br/&gt;Fox 1-3 - Paratrooper Squad, your squad (B1CH3). &lt;br/&gt;&lt;br/&gt;CH1 LR for communication between element leaders.</English>
+            <Polish>Fox 1-0 - Element dowodzenia plutonem (B1K4). &lt;br/&gt;Fox 1-1 - Drużyna spadochroniarzy z operatorem UAV (B1K1). &lt;br/&gt;Fox 1-2 - Drużyna spadochroniarzy (B1K2). &lt;br/&gt;Fox 1-3 - Drużyna spadochroniarzy, twoja drużyna (B1K3). &lt;br/&gt;&lt;br/&gt;K1 LR do komunikacji między dowódcami.</Polish>
+        </Key>
+    </Package>
+    <!--===================================== task content =====================================-->
+    <Package name="Task">
+        <Key ID="STR_AFP_Task_Prepare_Title">
+            <English>Prepare the Drop Zone</English>
+            <Polish>Przygotuj strefę zrzutu</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Prepare_Contents">
+            <English>Connect to Mk45 Hammer with an UAV terminal and soften up the &lt;marker name='marker_airport'&gt;airfield&lt;/marker&gt;.&lt;br/&gt;&lt;marker name='marker_AAA1'&gt;Anti&lt;/marker&gt; &lt;marker name='marker_AAA2'&gt;Air&lt;/marker&gt; &lt;marker name='marker_AAA3'&gt;Artillery&lt;/marker&gt; is the top priority, rest is up to you.</English>
+            <Polish>Podłączcie się do Mk45 Hammer za pomocą terminala UAV i ostrzelajcie &lt;marker name='marker_airport'&gt;lotnisko&lt;marker&gt;. &lt;br/&gt;&lt;marker name='marker_AAA1'&gt;Pozycje&lt;/marker&gt; &lt;marker name='marker_AAA2'&gt;artylerii&lt;/marker&gt; &lt;marker name='marker_AAA3'&gt;p-lot&lt;/marker&gt; są najwyższym priorytetem, reszta zależy od Was.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Paradrop_Title">
+            <English>Paradrop</English>
+            <Polish>Zrzut</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Paradrop_Contents">
+            <English>Board &lt;marker name='marker_plane'&gt;the V-44&lt;/marker&gt;, prepare parachutes and jump when the light is green. Don't touch the ramp controls.</English>
+            <Polish>Wejdźcie na pokład &lt;marker name='marker_plane'&gt;V-44&lt;/marker&gt;, przygotujcie spadochrony i skoczcie, gdy zapali się zielone światło. Nie dotykajcie sterowania rampą.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Clear_Title">
+            <English>Clear the Airfield</English>
+            <Polish>Oczyść lotnisko</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Clear_Contents">
+            <English>Secure the &lt;marker name='marker_airport'&gt;airfield&lt;/marker&gt; so its safe for the V-44 to airdrop your vehicles.</English>
+            <Polish>Zabezpieczcie &lt;marker name='marker_airport'&gt;lotnisko&lt;/marker&gt;, aby V-44 mógł bezpiecznie zrzucić wasze pojazdy.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Locate_Title">
+            <English>Locate the HVT</English>
+            <Polish>Zlokalizuj HVT</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Locate_Contents">
+            <English>Use UAVs to locate the HVT. Intel provides three possible areas: &lt;marker name='marker_area_search1'&gt;Saint Louis&lt;/marker&gt;, &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; and &lt;marker name='marker_area_search3'&gt;La Trinite&lt;/marker&gt;.</English>
+            <Polish>Użyjcie UAV, aby zlokalizować HVT. Intel podaje trzy możliwe obszary: &lt;marker name='marker_area_search1'&gt;Saint Louis&lt;/marker&gt;, &lt;marker name='marker_area_search2'&gt;Larche&lt;/marker&gt; i &lt;marker name='marker_area_search3'&gt;La Trinite&lt;/marker&gt;.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_HVT_Title">
+            <English>Secure the HVT</English>
+            <Polish>Zabezpiecz HVT</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_HVT_Contents">
+            <English>Find and secure the HVT.</English>
+            <Polish>Znajdźcie i zabezpieczcie HVT.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Evac_Title">
+            <English>Evacuate the HVT</English>
+            <Polish>Ewakuuj HVT</Polish>
+        </Key>
+        <Key ID="STR_AFP_Task_Evac_Contents">
+            <English>Escort the HVT to the &lt;marker name='marker_evac'&gt;evacuation LZ&lt;/marker&gt; where the V-44 will pick you up.</English>
+            <Polish>Odeskortujcie HVT do &lt;marker name='marker_evac'&gt;strefy ewakuacji&lt;/marker&gt;, skąd podejmie was V-44.</Polish>
+        </Key>
+    </Package>
+    <!--===================================== endings =====================================-->
+    <Package name="Ending">
+        <!--======= everyone dead =======-->
+        <Key ID="STR_AFP_Ending_AllDead_Title">
+            <English>MISSION FAILED</English>
+            <Polish>MISJA NIEUDANA</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_AllDead_Subtitle">
+            <English>KIA</English>
+            <Polish>KIA</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_AllDead_Description">
+            <English>Fox 1 was wiped out.</English>
+            <Polish>Fox 1 zostało wyeliminowane.</Polish>
+        </Key>
+        <!--======= everyone dead, hvt dead =======-->
+        <Key ID="STR_AFP_Ending_AllDeadCivDead_Title">
+            <English>MISSION FAILED</English>
+            <Polish>MISJA NIEUDANA</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_AllDeadCivDead_Subtitle">
+            <English>KIA; HVT Dead</English>
+            <Polish>KIA; Cel nie przeżył</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_AllDeadCivDead_Description">
+            <English>Fox 1 was wiped out after mishandling the HVT extraction.</English>
+            <Polish>Fox 1 zostało wyeliminowane po ewakuacji celu do płytkiego grobu.</Polish>
+        </Key>
+        <!--======= hvt extracted =======-->
+        <Key ID="STR_AFP_Ending_CivAlive_Title">
+            <English>MISSION SUCCESSFUL</English>
+            <Polish>MISJA UDANA</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivAlive_Subtitle">
+            <English>HVT evacuated.</English>
+            <Polish>Cel ewakuowany.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivAlive_Description">
+            <English>Fox 1 successfully evacuated the HVT.</English>
+            <Polish>Fox 1 pomyślne ewakuowało cel o wysokiej wartości.</Polish>
+        </Key>
+        <!--======= hvt extracted, heavy losses =======-->
+        <Key ID="STR_AFP_Ending_CivAliveMuchLost_Title">
+            <English>MISSION SUCCESSFUL</English>
+            <Polish>MISJA UDANA</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivAliveMuchLost_Subtitle">
+            <English>HVT evacuated; heavy losses.</English>
+            <Polish>Cel ewakuowany; znaczne straty.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivAliveMuchLost_Description">
+            <English>Fox 1 successfully evacuated the HVT despite sustaining heavy losses.</English>
+            <Polish>Fox 1 pomyślne ewakuowało cel o wysokiej wartości mimo znacznych strat własnych.</Polish>
+        </Key>
+        <!--======= hvt dead, players extracted =======-->
+        <Key ID="STR_AFP_Ending_CivDead_Title">
+            <English>MISSION FAILED</English>
+            <Polish>MISJA NIEUDANA</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivDead_Subtitle">
+            <English>Fox 1 evacuated; HVT Dead.</English>
+            <Polish>Fox 1 ewakuowane; Cel nie przeżył.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivDead_Description">
+            <English>Fox 1 successfully evacuated. The HVT is dead.</English>
+            <Polish>Fox 1 pomyślne się ewakuowało. Cel o wysokiej wartości nie przeżył.</Polish>
+        </Key>
+        <!--======= hvt dead, players extracted, heavy losses =======-->
+        <Key ID="STR_AFP_Ending_CivDeadMuchLost_Title">
+            <English>MISSION FAILED</English>
+            <Polish>MISJA NIEUDANA</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivDeadMuchLost_Subtitle">
+            <English>Fox 1 evacuated; HVT Dead; heavy losses.</English>
+            <Polish>Fox 1 ewakuowane; Cel nie przeżył; znaczne straty.</Polish>
+        </Key>
+        <Key ID="STR_AFP_Ending_CivDeadMuchLost_Description">
+            <English>Fox 1 successfully evacuated, but sustained heavy losses. The HVT is dead.</English>
+            <Polish>Fox 1 pomyślne się ewakuowało, ale ze znacznymi stratami własnymi. Cel o wysokiej wartości nie przeżył.</Polish>
+        </Key>
+    </Package>
+</Project>

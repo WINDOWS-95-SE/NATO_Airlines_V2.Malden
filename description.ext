@@ -1,0 +1,86 @@
+#include "script_component.hpp"
+
+/* Respawn stuff */
+respawn = 3;
+respawnDelay = 1e10;
+respawnTemplates[] = {"afm_respawn_default"};
+// Jeśli misja nie przewiduje standardowego respawnu na czas to można usunąć "Counter".
+// Tj. dla misji permadeath i z własnym respawnem np. po wykonaniu zadania.
+// Dla kompatybilności z modułem obserwatora:
+respawnTemplatesVirtual[] = {"Spectator"};
+
+disableChannels[] = {1,2,4,5};
+saving = 0;
+
+/* Mission description and stuff */
+author = CSTRING(Mission_Author);
+onLoadIntro = CSTRING(Mission_ShortDescription);
+briefingName = CSTRING(DisplayName);
+onLoadMission = CSTRING(Mission_ShortDescription);
+onLoadName = CSTRING(Mission_Title);
+overviewText = CSTRING(Mission_Description);
+overviewPicture = "loadScreenMin.paa";
+class Header {
+    gameType = Coop;
+    minPlayers = 12;
+    maxPlayers = 25;
+};
+
+enableDebugConsole[] = { "76561198104026994", "76561198066233885", "76561198018567644"};
+/* Other stuff */
+disabledAI = true;
+
+class CfgDebriefing {
+    #include "debriefing.hpp"
+}
+
+class CfgTaskDescriptions
+{
+	class prepareDescription
+	{
+		title		= "$STR_AFP_Task_Prepare_Title";
+		description	= "$STR_AFP_Task_Prepare_Contents";
+		marker		= "";
+	};
+    class paradropDescription
+	{
+		title		= "$STR_AFP_Task_Paradrop_Title";
+		description	= "$STR_AFP_Task_Paradrop_Contents";
+		marker		= "";
+	};
+    class clearDescription
+	{
+		title		= "$STR_AFP_Task_Clear_Title";
+		description	= "$STR_AFP_Task_Clear_Contents";
+		marker		= "";
+	};
+    class locateDescription
+	{
+		title		= "$STR_AFP_Task_Locate_Title";
+		description	= "$STR_AFP_Task_Locate_Contents";
+		marker		= "";
+	};
+    class hvtDescription
+	{
+		title		= "$STR_AFP_Task_HVT_Title";
+		description	= "$STR_AFP_Task_HVT_Contents";
+		marker		= "";
+	};
+	class evacDescription
+	{
+		title		= "$STR_AFP_Task_Evac_Title";
+		description	= "$STR_AFP_Task_Evac_Contents";
+		marker		= "";
+	};
+};
+
+class Params
+{
+	class TownToAssault
+	{
+		title = "Attack";
+		texts[] = { "1", "2", "random" };
+		values[] = {1, 2, 3};
+		default = 3;
+	}
+}
